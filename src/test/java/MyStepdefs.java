@@ -55,6 +55,7 @@ public class MyStepdefs extends TestRunner {
     @And("^I click register button$")
     public void iClickRegisterButton() {
         myPageObjects.registerButton.click();
+        System.out.println("REGISTER");
     }
 
     @When("^I am on home showing registration successful message$")
